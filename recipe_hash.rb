@@ -26,20 +26,18 @@ puts "AMOUNT OF CHOCOLATE CHIPS NEEDED:"
 puts amount_of_chocolate_chips(perfect_10_recipe)
 puts " "
 
-  perfect_10_recipe.each do |ingredient, amount|
+perfect_10_recipe.each do |ingredient, amount|
     puts "INGREDIENT: #{ingredient}...AMOUNT: #{amount}"
-  end
+end
 
-
-
-
-
-#4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
 def ingredients(perfect_10_recipe)
 end
 
 #5: Now use `puts` to print out just the amounts without the ingredients. You'll want to use the `each_value` method.
 def amounts(perfect_10_recipe)
+  puts " "
+  puts "INGREDIENTS: "
+  puts ingredients = perfect_10_recipe.keys
 end
 
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
