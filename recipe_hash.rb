@@ -39,6 +39,7 @@ def amounts(perfect_10_recipe)
   puts "INGREDIENTS: "
   puts ingredients = perfect_10_recipe.keys
 end
+puts def amounts(perfect_10_recipe)
 
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
 def number_ingredients(perfect_10_recipe)
