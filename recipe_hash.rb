@@ -26,12 +26,10 @@ puts "AMOUNT OF CHOCOLATE CHIPS NEEDED:"
 puts amount_of_chocolate_chips(perfect_10_recipe)
 puts " "
 
-def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |ingredient, amount|
     puts "INGREDIENT: #{ingredient}...AMOUNT: #{amount}"
   end
-end 
-puts ingredients_and_amounts(perfect_10_recipe)
+
 
 
 
