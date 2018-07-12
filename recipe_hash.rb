@@ -30,7 +30,7 @@ puts " "
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |ingredient, amount|
     puts "INGREDIENT: #{ingredient}"
-    
+    puts "AMOUNT: #{amount}""
 end
 puts "INGREDIENTS & AMOUNTS:"
 puts ingredients_and_amounts(perfect_10_recipe)
