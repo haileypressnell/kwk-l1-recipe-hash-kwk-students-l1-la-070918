@@ -33,7 +33,7 @@ def ingredients_and_amounts(perfect_10_recipe)
     puts "AMOUNT: #{amount}"
 end
 end 
-
+puts ingredients_and_amounts(perfect_10_recipe)
 
 
 
