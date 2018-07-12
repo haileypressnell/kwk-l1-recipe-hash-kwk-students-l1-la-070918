@@ -40,5 +40,5 @@ puts amounts(perfect_10_recipe)
 def number_ingredients(perfect_10_recipe)
   puts perfect_10_recipe.length 
 end
-puts "NUMBER OF INGREDIENTS"
+puts "NUMBER OF INGREDIENTS:"
 puts number_ingredients(perfect_10_recipe)
