@@ -30,7 +30,7 @@ puts " "
 def ingredients_and_amounts(perfect_10_recipe)
   puts ingredients = perfect_10_recipe.keys
 end
-
+puts ingredients_and_amounts(perfect_10_recipe)
 
 
 
